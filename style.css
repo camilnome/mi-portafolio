@@ -1,6 +1,15 @@
-.intro{
-    background-image: url(./assets/img/IMG_20200930_120828.jpg);
-
+/*Navbar*/
+.first-section{
+    background-color:#F0AAC3;
+}
+.navbar-fixed{
+    position: fixed;
+    z-index: 1;
+}
+.nav-link{
+    font-family: "open sans",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .img-logo{
@@ -8,10 +17,143 @@
     height:80px;
 }
 
+
+.inicio{
+    position: relative;
+    display: flex;
+    justify-content:center ;
+    padding-top: 120px;
+}
+
+.mi-imagen{
+    width: 500px;
+    height: 600px;
+    margin-right: 100px;
+    z-index: -1;
+}
+.about-me{
+    font-family: "open sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.parrafos{
+    display: flex;
+    justify-content: center;
+    vertical-align: inherit;
+    margin: 20px;
+}
+
+.experience-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px 195px;
+    width: 700px;
+}
+
+.experience-aline{
+    text-align: center;
+}
+
+.white-pink{
+    color:#ffffff;
+
+}
+
+
+
+.im{
+font-family: "oswald",sans-serif;
+font-size: 85px;
+font-weight: 200;
+color:#F0AAC3;
+}
+.name{
+    font-family: "oswald",sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    color:#F0AAC3;
+}
+
+.title-name{
+    margin-top: 120px;
+    margin-left: -160px;
+}
+
+.titulo{
+    font-family: "open sans",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    }
+
+
+
+.subtitulo{
+    font-family: "oswald",sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    
+
+}
 .works{
-    background-color: #D171A8;
+    background-color: #F0AAC3;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.ci1{
+margin-left: 140px;
+}
+
+.ci2{
+    margin-left: 280px;
+    }
+
+    .carousel-indicators li{
+        height: 13px !important; 
+        width: 13px !important;
+        border-radius: 100px;
+        border-bottom: 0px !important;
+        border-top: 0px !important;
+        background-color:#ffffff !important;
+    }
+    
+    .carousel-indicators{
+        position: relative !important;
+        margin-top: 15px;
+        }
+
+button{
+    border-radius: 50px;
+    background-color:#F0AAC3;
+    color:#ffffff;
+}
+
+.carousel-img{
+    height: 230px;
+    width: 250px;
+}
+
+.name-bottom{
+    color:#ffffff;
+    font-family: "oswald",sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    width: 40%;
+}
+
+.a1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer{
-    background-color: #D171A8;
+    background-color:#F0AAC3;
+}
+.icon{
+    width: 40%;
+    color:#ffffff;
 }

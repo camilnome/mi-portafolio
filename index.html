@@ -18,7 +18,7 @@
     <title>Mi Portafolio</title>
   </head>
   <body>
-    <section class="container-fluid" style="background-color:#D171A8;">
+    <section class="container-fluid navbar-fixed first-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -49,27 +49,32 @@
     
     </section>
 
-    <section class="imagen">
-        <div class="container">
+    <section class="imagen mb-5">
+        <div class="relativa ">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class="im">YO SOY</h2>
-                    <hr class="line">
-                    <h1 class="name">CAMILA</h1>                
+                <div class="col-md-12 inicio">
+                    <img class="mi-imagen" src="./assets/img/IMG_20200930_120932.jpg" alt="img-camila">
+                    <div class="title-name">
+                        <h2 class="im">YO SOY</h2>
+                        <hr class="line">
+                        <h2 class="name">CAMILA</h2>
+                    </div>
                 </div>
             </div>
         </div>
 
     </section>
 
-    <section class="description">
+    <section class="description mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="titulo"> Hola que tal, a continuación les hablaré un poco sobre mi...</h3>
                     <hr class="line">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum perspiciatis dolores et sequi fugit maxime magnam quae accusantium voluptate consectetur optio, cupiditate quidem, veritatis dolorum nobis laborum deleniti officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aspernatur sit distinctio voluptas natus, quae incidunt deleniti voluptatem eos tenetur praesentium commodi tempore iusto molestiae harum quia dolorem. In, incidunt!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui omnis dolorum commodi. Tenetur repellendus veniam, pariatur dolorum laboriosam neque quas fuga ad, soluta quae accusantium, deserunt quam aspernatur quisquam! Odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sequi animi mollitia nam quidem corporis odit recusandae neque officiis, iste voluptatibus magni velit illum porro eos, consequuntur excepturi error ab?</p>
+                    <div class="parrafos">
+                        <p class="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum perspiciatis dolores et sequi fugit maxime magnam quae accusantium voluptate consectetur optio, cupiditate quidem, veritatis dolorum nobis laborum deleniti officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aspernatur sit distinctio voluptas natus, quae incidunt deleniti voluptatem eos tenetur praesentium commodi tempore iusto molestiae harum quia dolorem. In, incidunt!</p>
+                        <p class="about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui omnis dolorum commodi. Tenetur repellendus veniam, pariatur dolorum laboriosam neque quas fuga ad, soluta quae accusantium, deserunt quam aspernatur quisquam! Odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sequi animi mollitia nam quidem corporis odit recusandae neque officiis, iste voluptatibus magni velit illum porro eos, consequuntur excepturi error ab?</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,13 +82,25 @@
     </section>
 
 
-    <section class="experience">
-        <div class="container">
+    <section class="experience mt-5 mb-5">
+        <div class="container experience-aline">
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="subtitulo">MI EXPERIENCIA</h3>
-                    <i class="fas fa-prescription-bottle-alt">ux/ui designer</i>
-                    <i class="fas fa-money-check-alt">ux/ui designer</i>
+                    <div class="experience-icon">
+                        <div>
+                            <i class="fas fa-prescription-bottle-alt fa-5x"></i> 
+                            <p>Diseñadora UX/UI <br> <span>2010 - 2015</span></p>
+                        </div>
+
+                        <div>
+                            <i class="fas fa-money-check-alt fa-5x"></i>
+                            <p>Diseñadora UX/UI <br> <span>2015 - 2020
+                            </span></p>
+                        </div>
+                        
+                    </div>
+                    
 
                 </div>
             </div>
@@ -95,12 +112,45 @@
         <div class="container">
             <div class="row">   
                 <div class="col-md-12">
-                   <h3 class="subtitulo">MIS ULTIMOS TRABAJOS</h3> 
-                    <img src="./assets/img/meet_coffee.png" alt="meet&coffe">
-                    <img src="./assets/img/iguana_page.png" alt="iguana">
-                    <img src="./assets/img/suricata.png" alt="suricata">
-                    <img src="./assets/img/cuppon.png" alt="cuppon">
-                    <img src="./assets/img/ricomida.png" alt="ricomida">
+                    <h3 class="subtitulo white-pink">MIS ULTIMOS TRABAJOS</h3> 
+                    <div class="container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">            
+                            <div class="carousel-inner d-none d-sm-none d-md-block">
+                                <div class="carousel-item active ci1">
+                                    <div class="row">
+                                        <div class="col-3"><img class="carousel-img" src="./assets/img/PROY-01.png" alt=""></div>
+                                        <div class="col-3"><img class="carousel-img" src="assets/img/PROY-02.png" alt=""></div>
+                                        <div class="col-3"><img class="carousel-img" src="assets/img/PROY-03.png" alt=""></div>
+                                    </div>
+                                </div>
+                
+                                <div class="carousel-item ci2">
+                                    <div class="row">
+                                        <div class="col-3"><img class="carousel-img" src="assets/img/PROY-04.png" alt=""></div>
+                                        <div class="col-3"><img class="carousel-img" src="assets/img/PROY-05.png" alt=""></div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        <div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+    
+                            <div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+    
+                        </div> 
+                    </div>
                 </div>
             </div> 
             
@@ -108,14 +158,13 @@
 
     </section>
 
-    <section class="contact">
+    <section class="contact mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="subtitulo">CONTACTO</h3>
                     <hr class="line">
-                    <p>¿Quieres conocer más de mi?</p>
-                    <button>Comenzar</button>
+                    
                 </div>
             </div>
         </div>
@@ -125,12 +174,14 @@
     <section class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p>CAMILA</p>
-                    <i class="fab fa-github-square fa-3x"></i>
-                    <i class="fab fa-linkedin fa-3x"></i>
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                    <i class="fab fa-facebook-square fa-3x"></i>
+                <div class="col-md-12 a1">
+                    <p class="name-bottom">CAMILA</p>
+                    <div class="icon">
+                        <i class="fab fa-github-square fa-3x"></i>
+                        <i class="fab fa-linkedin fa-3x"></i>
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                        <i class="fab fa-facebook-square fa-3x"></i>
+                    </div>
                 </div>
 
             </div>
