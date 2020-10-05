@@ -6,6 +6,8 @@ body{
     background-color:#E4ADBC;
 }
 
+
+
 .img-logo{
     width: 80px;
     height:80px;
@@ -69,6 +71,12 @@ body{
     font-weight: 400;    
     }
 
+.titulo{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+    
 /*Mi Experiencia*/
 
 .experience-aline{
@@ -80,6 +88,21 @@ body{
     justify-content: space-evenly;
     margin:30px 195px;
     width: 700px;
+}
+.subtitulo{
+    font-family: "oswald",sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    
+
+}
+
+.puesto{
+    font-family:"oswald",sans-serif;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 /*Works*/
@@ -104,6 +127,9 @@ body{
     height: 230px;
     width: 250px;
 }
+.white-pink{
+    color:#ffffff;
+}
 
 /*Footer*/
 
@@ -121,6 +147,16 @@ body{
     color:#ffffff;
 }
 
+.fab{
+    color: #ffffff;
+}
+
+.fab:hover{
+    color: #1e1e1e;
+    font-size: 60px;
+}
+
+
 .name-bottom{
     color:#ffffff;
     font-family: "oswald",sans-serif;
@@ -130,6 +166,14 @@ body{
 }
 
 @media (max-width:500px){
+
+    .logo{
+        width: 100%;
+    }
+
+    .img-logo{
+        margin-right: 140px;
+    }
     
     .inicio{
     display: block;
@@ -139,6 +183,7 @@ body{
 
     .mi-imagen{
         width: 100%;
+        margin-right:0px;
     }
 
     .title-name{
@@ -164,7 +209,7 @@ body{
     
 /*Experiencia*/
     .experience-icon{
-        display: flex;
+        display: block;
         justify-content: space-evenly;
         margin:0px;
         width: 100%;
@@ -185,6 +230,19 @@ body{
 
     .works{
         height: 900px;
+    }
+    .carousel-indicators li{
+        height: 13px !important; 
+        width: 13px !important;
+        border-radius: 100px;
+        border-bottom: 0px !important;
+        border-top: 0px !important;
+        background-color:#ffffff !important;
+    }
+        
+    .carousel-indicators{
+        position: relative !important;
+        margin-top: 15px;
     }
 
 /*Footer*/
@@ -221,52 +279,6 @@ body{
 
 
 
-.white-pink{
-    color:#ffffff;
-}
-
-
-
-
-
-.titulo{
-    font-family: "open sans",sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    }
-
-.subtitulo{
-    font-family: "oswald",sans-serif;
-    font-size: 52px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    text-align: center;
-    
-
-}
-
-
-
-.carousel-indicators li{
-    height: 13px !important; 
-    width: 13px !important;
-    border-radius: 100px;
-    border-bottom: 0px !important;
-    border-top: 0px !important;
-    background-color:#ffffff !important;
-}
-    
-.carousel-indicators{
-    position: relative !important;
-    margin-top: 15px;
-}
-
-button{
-    border-radius: 50px;
-    background-color:#E4ADBC;
-    color:#ffffff;
-}
 
 
 
