@@ -275,10 +275,12 @@ body{
     margin-bottom: 1px !important;
 }
 
+}
 
-
-
-
+@media (max-width:360px){
+.img-logo{
+    margin-right: 80px;
+    }
 }
 
 
