@@ -31,3 +31,7 @@ function clickHandler(e) {
         behavior: "smooth"
     });
 }
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
